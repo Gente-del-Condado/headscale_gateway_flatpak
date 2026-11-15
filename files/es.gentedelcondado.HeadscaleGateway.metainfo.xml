@@ -14,5 +14,5 @@
   <url type="vcs-browser">https://github.com/Gente-del-Condado/headscale_gateway_flatpak</url>
   <url type="bugtracker">https://github.com/Gente-del-Condado/headscale_gateway_flatpak/issues</url>
   <content_rating type="oars-1.1"/>
-  <releases><release version="1.4.8" date="2026-11-15"/></releases>
+  <releases><release version="1.4.9" date="2026-11-15"/></releases>
 </component>
