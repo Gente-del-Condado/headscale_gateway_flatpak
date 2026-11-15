@@ -14,6 +14,7 @@
       "build-commands": [
         "install -Dm755 headscale-gateway /app/bin/headscale-gateway",
         "install -Dm755 files/headscale-gateway-launcher /app/bin/headscale-gateway-launcher",
+        "install -Dm644 files/hgw_bootstrap.py /app/lib/headscale-gateway/hgw_bootstrap.py",
         "install -Dm644 files/es.gentedelcondado.HeadscaleGateway.desktop /app/share/applications/es.gentedelcondado.HeadscaleGateway.desktop",
         "install -Dm644 files/es.gentedelcondado.HeadscaleGateway.metainfo.xml /app/share/metainfo/es.gentedelcondado.HeadscaleGateway.metainfo.xml",
         "install -Dm644 files/es.gentedelcondado.HeadscaleGateway.png /app/share/icons/hicolor/128x128/apps/es.gentedelcondado.HeadscaleGateway.png",
@@ -24,8 +25,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.12/headscale-gateway-linux-amd64",
-          "sha256": "5c061f2912cae402566cee4097f38daad000e98e51058802ead89cd87fee6c70",
+          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.13/headscale-gateway-linux-amd64",
+          "sha256": "7f4c62b59a337749c5b6cba6937ed15eab36f39139e4ade2ce976d634d1cd16a",
           "dest-filename": "headscale-gateway",
           "only-arches": [
             "x86_64"
@@ -33,8 +34,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.12/headscale-gateway-linux-arm64",
-          "sha256": "db575d15359c7254279dc345eff71fcfcc4235ec61800e847c5b760d287ab39c",
+          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.13/headscale-gateway-linux-arm64",
+          "sha256": "15c8a757c2175f992e5f18a3a3171c447db5eb898048b495c98e9889fad59935",
           "dest-filename": "headscale-gateway",
           "only-arches": [
             "aarch64"
