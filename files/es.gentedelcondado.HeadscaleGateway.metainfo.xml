@@ -18,5 +18,5 @@
   <url type="help">https://gente-del-condado.github.io/headscale_gateway_ynh/FLATPAK.html</url>
   <screenshots><screenshot type="default"><caption>Panel compartido de Headscale Gateway</caption><image type="source">https://gente-del-condado.github.io/headscale_gateway_ynh/capturas/mini-gui-linux.png</image></screenshot></screenshots>
   <content_rating type="oars-1.1"/>
-  <releases><release version="1.4.13" date="2026-11-15"/></releases>
+  <releases><release version="1.4.14" date="2026-11-15"/></releases>
 </component>
