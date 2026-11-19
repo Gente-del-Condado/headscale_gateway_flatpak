@@ -25,8 +25,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.19/headscale-gateway-linux-amd64",
-          "sha256": "ae750eeb9f278deb05af3d764248c1daba1f7b1586712f3dfd01255ec0e99fbf",
+          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.20/headscale-gateway-linux-amd64",
+          "sha256": "90dbc1437b738ef67e814f5ed14ccc51876b68927d828e67db661f0e1ea8b892",
           "dest-filename": "headscale-gateway",
           "only-arches": [
             "x86_64"
@@ -34,8 +34,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.19/headscale-gateway-linux-arm64",
-          "sha256": "0843c996b015faab8afd83edb391a47df3900b04498e8c31668a27dabfc5aae3",
+          "url": "https://github.com/Gente-del-Condado/headscale_gateway_ynh/releases/download/server-v1.4.20/headscale-gateway-linux-arm64",
+          "sha256": "590b793b033dcfb262d622d9c694f9c20fd63e1fb837cdb9706282416aa3474b",
           "dest-filename": "headscale-gateway",
           "only-arches": [
             "aarch64"
